@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    <uses-policies>
+        <!-- 强行锁定  在里仅这个是需要的 -->
+        <force-lock />
+
+
+        <!-- 清除所有数据（恢复出厂设置) -->
+        <!--<wipe-data />-->
+        <!-- 重置密码 -->
+        <!--<reset-password />-->
+        <!-- 限制密码选择 -->
+        <!--<limit-password />-->
+        <!-- 监控登录尝试 -->
+        <!--<watch-login />-->
+
+    </uses-policies>
+</device-admin>
